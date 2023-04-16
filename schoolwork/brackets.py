@@ -1,15 +1,15 @@
 def b(n):
-    res = []
+    result = []
     def backtrack(s, left, right):
         if left == 0 and right == 0:
-            res.append(s)
+            result.append(s)
             return
         if left > 0:
             backtrack(s+'(', left-1, right)
         if right > left:
             backtrack(s+')', left, right-1)
     backtrack("", n, n)
-    return res
+    return result
 
 try:
     while(1):
