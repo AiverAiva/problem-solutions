@@ -46,14 +46,10 @@
               {{ data[0].title }}
             </h2>
             <div class="flex items-center">
-              <span class="text-sm mr-2 flex-col">by:</span>
+              <span class="text-sm mr-2">by:</span>
               <div v-for="(author, index) in data[0].author" :key="index">
                 <Author :author=author />
               </div>
-              
-              <!-- <a :href="`https://github.com/${data[0].author}`" rel="noreferrer" target="_blank">
-                <Badge>{{ data[0].author }}</Badge>
-              </a> -->
             </div>
           </div>
           <p class="text-sm text-warm-gray-700 dark:text-light-900">
@@ -93,7 +89,7 @@
           "
         >
           <a
-            :href="`https://github.com/AiverAiva/problem-solutions/edit/master/content/problems/${$route.params.slug}.md`"
+            :href="`https://github.com/AiverAiva/problem-solutions/edit/main/content/problems/${$route.params.slug}.md`"
             rel="noreferrer"
             target="_blank"
             class="inline-flex items-center text-warm-gray-400"
