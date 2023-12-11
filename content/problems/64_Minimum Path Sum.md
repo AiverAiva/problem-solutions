@@ -3,7 +3,7 @@ category: Leetcode
 title: "64. Minimum Path Sum"
 description: 
 author: ["AiverAiva"]
-tags: ["Dynamic Prograaming"]
+tags: ["Dynamic Programming"]
 ---
 
 ```py
