@@ -1,6 +1,6 @@
 ---
 category: Leetcode
-title: "20. Two Sum"
+title: "20. Valid Parentheses"
 description: 
 author: ["HawkXH"]
 tags: ["Stack"]
