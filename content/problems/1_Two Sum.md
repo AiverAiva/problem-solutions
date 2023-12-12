@@ -2,7 +2,7 @@
 category: Leetcode
 title: "1. Two Sum"
 description: 
-author: ["XH"]
+author: ["HawkXH"]
 tags: ["Simple"]
 ---
 
